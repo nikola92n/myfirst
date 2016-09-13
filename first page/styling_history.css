@@ -1,0 +1,264 @@
+/* STYLING_HISTORY.CSS */
+/* JOHNY-DESIGN */
+
+html {
+	font-size: 16px;
+	
+}
+
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 18px;	
+	font-family: Times New Roman, Tahoma, Serif;
+	
+}
+
+.content {
+	
+	position: relative;
+	width: 1500px;
+	height: 2300px;
+	border:;
+	left: 50%;
+	margin-left: -750px;
+}
+
+/* HEADINGS */
+
+.header {
+	position: relative;
+	width: 1300px;
+	height: 80px;
+	border:;
+	border-radius: 10px;
+	/*background-color: #E0F8F1;*/
+	margin: auto;
+	margin-top: -10px;
+	background: linear-gradient(skyblue, #E0F8F1);
+}
+
+ li{
+	 list-style-type:none;
+ }
+ 
+ .navbar {
+	 position: absolute;
+	 margin-left: 280px;
+	 margin-top: 5px;
+	 display: inline;
+	 width: 800px;
+	 height: 50px;
+	 border: ;
+ }
+ 
+ .navbutton {
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+	display:inline;
+	background-color: #2F63D5;
+	border: ;
+	border-radius: 10px;
+	width: 10em;
+	height: 5em;
+	color: white;
+	font-size: 30px;
+	font-family: Times New Roman, Verdana, Serif;
+ }
+ 
+ a {
+	 text-decoration: none;
+	 color: navy;
+ }
+ 
+ div.navbutton:hover {
+	 background-color: #628CE8;	
+ }
+ 
+ /* BODY */
+ 
+ #mid {
+	 position: absolute;
+	 display: block;
+	 width: 1050px;
+	 height: 2000px;
+	 border: ;
+	 border-left: #E0F8F1 solid 3px;
+	 border-right: #E0F8F1 solid 3px;
+	 margin-top: 100px;
+	 margin-left: 220px;
+	
+ }
+ 
+ .mcontent {
+	 position: absolute;
+	 width: 1045px;
+	 height: 1580px;
+	 border:;
+	 margin-left: 2px;
+	 margin-top: 280px;
+	 
+ }
+ 
+ 
+ h1 {
+	 font-family: Brush Script MT, Vivaldi, Tahoma, Serif;
+	 font-size: 80px;
+	 text-align: center;
+	 margin-top: -20px;
+	 border:;
+	 text-shadow: 4px 4px 8px skyblue;
+ }
+ 
+ #headstock {
+	 width: 1040px;
+	 height: 200px;
+	 position: absolute;
+	 border:;
+	 margin-top: -60px;
+	 margin-left: 9px;
+	 
+ }
+ 
+ h2 {
+	 
+	 text-align:center;
+	 font-size: 40px;
+	 font-family; Times New Roman, Tahoma, Serif;
+	 margin-top: -5px;
+	 
+ }
+ 
+ #ecsignature{
+	 display: block;
+	 float: left;
+	 padding-right: 20px;
+ }
+
+ #ghstrat {
+	 display: block;
+	 float: right;
+	 padding-left: 20px;
+	 margin-right: 20px;
+ }
+ 
+ #leofender {
+	 display: block;
+	 position: absolute;
+	 margin-left: 170px;
+	 
+ }
+ 
+ /* LOGOS */ 
+ 
+ #logoleft {
+	 position: fixed;
+	 float: left;
+	 display: inline-block;
+	 width: 200px;
+	 height: 200px;
+	 border:;
+	 margin-top: 50px;
+	 margin-left: 18px;
+	 
+ }
+ 
+ #logoright {
+	 position: fixed;
+	 float: right;
+	 display: inline-block;
+	 width: 200px;
+	 height: 200px;
+	 border:;
+	 margin-top: 50px;
+	 margin-left: 1277px;
+	 
+ }
+ 
+ /* SIDEBAR */
+ 
+ #sidebar {
+	 
+	 position: fixed;
+	 float: left;
+	 width: 205px;
+	 height: 200px;
+	 border:;
+	 margin-top: 300px;
+	 margin-left: 8px;
+	 
+ }
+ 
+ #tbl {
+	 border: none;
+	 text-align: center;
+	 font-size: 20px;
+	 font-family: Arial, Verdana, Sans-serif;
+	 background-color: #E0F8F1;
+	 
+ }
+ 
+ /* FOOTER */
+ 
+ #footer {
+	 position: absolute;
+	 width: 1500px;
+	 height: 80px;
+	 border: ;
+	 border-radius: 3px;
+	 margin-bottom: 0px;
+	 margin-top: 2150px;
+	 margin-left: 0px;
+	 background: linear-gradient(#628CE8, #2F63D5, #628CE8);
+	 box-shadow: -0px -0px 10px #2F63D5;
+ }
+ 
+ #bottomnavbar {
+	 position: absolute;
+	 width: 400px;
+	 height: 40px;
+	 border:;
+	 margin-top: 10px;
+	 margin-left: 550px;
+	 
+ }
+ 
+ #bottomtable {
+	 font-size: 20px;
+	 
+ }
+ 
+	.bottomlink {
+		text-decoration: underline;
+		color: skyblue;
+	}
+	
+	
+ .tdb {
+	 padding: 15px;
+ }
+ 
+ #social {
+	 position: absolute;
+	 width: 180px;
+	 height: 40px;
+	 border:;	
+	 margin-top: 20px;
+	 margin-left: 1200px;
+ }
+ 
+ #me {
+	 position: absolute;
+	 width: 100px;
+	 height: 20px;
+	 color: skyblue;
+	 border:;
+	 margin-top: 40px;
+	 margin-left: 30px;
+	 font-family: Times New Roman, Tahoma, Serif;
+	 font-size: 15px;
+ }

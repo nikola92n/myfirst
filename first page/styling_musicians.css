@@ -1,0 +1,346 @@
+/* STYLING_MUSICIANS.CSS */
+/* JOHNY-DESIGN */
+
+html {
+	font-size: 16px;
+	
+}
+
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 18px;	
+	font-family: Times New Roman, Tahoma, Serif;
+	
+}
+
+.content {
+	
+	position: relative;
+	width: 1500px;
+	height: 4200px;
+	border: ;
+	left: 50%;
+	margin-left: -750px;
+}
+
+/* HEADINGS */
+
+.header {
+	position: relative;
+	width: 1300px;
+	height: 80px;
+	border:;
+	border-radius: 10px;
+	/*background-color: #E0F8F1;*/
+	margin: auto;
+	margin-top: -10px;
+	background: linear-gradient(skyblue, #E0F8F1);
+}
+
+ li{
+	 list-style-type:none;
+ }
+ 
+ .navbar {
+	 position: absolute;
+	 margin-left: 280px;
+	 margin-top: 5px;
+	 display: inline;
+	 width: 800px;
+	 height: 50px;
+	 border: ;
+ }
+ 
+ .navbutton {
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+	display:inline;
+	background-color: #2F63D5;
+	border: ;
+	border-radius: 10px;
+	width: 10em;
+	height: 5em;
+	color: white;
+	font-size: 30px;
+	font-family: Times New Roman, Verdana, Serif;
+ }
+ 
+ a {
+	 text-decoration: none;
+	 color: navy;
+ }
+ 
+ div.navbutton:hover {
+	 background-color: #628CE8;	
+ }
+ 
+ /* BODY */
+ 
+ #mid {
+	 position: absolute;
+	 display: block;
+	 width: 1050px;
+	 height: 3900px;
+	 border: ;
+	 border-left: #E0F8F1 solid 3px;
+	 border-right: #E0F8F1 solid 3px;
+	 margin-top: 100px;
+	 margin-left: 220px;
+	
+ }
+ 
+ .mcontent {
+	 position: absolute;
+	 width: 1045px;
+	 height: 3500px;
+	 border:;
+	 margin-left: 2px;
+	 margin-top: 280px;
+	 
+ }
+ 
+ 
+ h1 {
+	 font-family: Brush Script MT, Vivaldi, Tahoma, Serif;
+	 font-size: 80px;
+	 text-align: center;
+	 margin-top: -20px;
+	 border:;
+	 text-shadow: 4px 4px 8px skyblue;
+ }
+ 
+ #headstock {
+	 width: 1040px;
+	 height: 200px;
+	 position: absolute;
+	 border:;
+	 margin-top: -60px;
+	 margin-left: 9px;
+	 
+ }
+ 
+ h2 {
+	 
+	 text-align: center;
+	 font-size: 40px;
+	 font-family; Times New Roman, Tahoma, Serif;
+	 margin-top: -5px;
+	 
+ }
+ 
+ h3 {
+	 text-align: center;
+	 font-size: 32px;
+	 display: inline;
+	 font-family: Times New Roman, Tahoma, Serif;
+	 margin-left: 235px;
+	 
+ }
+ 
+ #EC {
+	 position: absolute;
+	 display: block;
+	 border:;
+	 width: 1045px;
+	 height: 400px;
+
+ }
+ 
+ #JIMIH{
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 430px;
+	 
+ }
+ 
+ #DG {
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 860px;
+	 
+ }
+ 
+ #JB {
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 1290px;
+	 
+ }
+ 
+ #SRV{
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 1720px;
+	 
+ }
+ 
+ #MK{
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 2150px;
+	 
+ }
+ 
+ #RG{
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 2580px;
+	 
+	 
+ }
+ 
+ #RB{
+	 position: absolute;
+	 display: block;
+	 border: ;
+	 width: 1045px;
+	 height: 400px;
+	 margin-top: 3010px;
+	 
+ }
+ 
+ .about {
+	 position: absolute;
+	 display: block;
+	 border:;
+	 width: 650px;
+	 height: 380px;
+	 margin-left: 350px;
+	 margin-top: 10px;
+	 
+	 
+ }
+ 
+ 
+ /* LOGOS */ 
+ 
+ #logoleft {
+	 position: fixed;
+	 float: left;
+	 display: inline-block;
+	 width: 200px;
+	 height: 200px;
+	 border:;
+	 margin-top: 50px;
+	 margin-left: 18px;
+	 
+ }
+ 
+ #logoright {
+	 position: fixed;
+	 float: right;
+	 display: inline-block;
+	 width: 200px;
+	 height: 200px;
+	 border:;
+	 margin-top: 50px;
+	 margin-left: 1277px;
+	 
+ }
+ 
+ /* SIDEBAR */
+ 
+ #sidebar {
+	 
+	 position: fixed;
+	 float: left;
+	 width: 205px;
+	 height: 200px;
+	 border:;
+	 margin-top: 300px;
+	 margin-left: 8px;
+	 
+ }
+ 
+ #tbl {
+	 border: none;
+	 text-align: center;
+	 font-size: 20px;
+	 font-family: Arial, Verdana, Sans-serif;
+	 background-color: #E0F8F1;
+	 
+ }
+ 
+ /* FOOTER */
+ 
+ #footer {
+	 position: absolute;
+	 width: 1500px;
+	 height: 80px;
+	 border: ;
+	 border-radius: 3px;
+	 margin-bottom: 0px;
+	 margin-top: 4050px;
+	 margin-left: 0px;
+	 background: linear-gradient(#628CE8, #2F63D5, #628CE8);
+	 box-shadow: -0px -0px 10px #2F63D5;
+ }
+ 
+ #bottomnavbar {
+	 position: absolute;
+	 width: 400px;
+	 height: 40px;
+	 border:;
+	 margin-top: 10px;
+	 margin-left: 550px;
+	 
+ }
+ 
+ #bottomtable {
+	 font-size: 20px;
+	 
+ }
+ 
+	.bottomlink {
+		text-decoration: underline;
+		color: skyblue;
+	}
+	
+	
+ .tdb {
+	 padding: 15px;
+ }
+ 
+ #social {
+	 position: absolute;
+	 width: 180px;
+	 height: 40px;
+	 border:;	
+	 margin-top: 20px;
+	 margin-left: 1200px;
+ }
+ 
+ #me {
+	 position: absolute;
+	 width: 100px;
+	 height: 20px;
+	 color: skyblue;
+	 border:;
+	 margin-top: 40px;
+	 margin-left: 30px;
+	 font-family: Times New Roman, Tahoma, Serif;
+	 font-size: 15px;
+ }

@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+}
+
+.wraper {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border:;
+    margin: auto;
+    top: 100px;
+    
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    position: relative;    
+    border-radius: 50%;
+    border: solid #548DC7 1px;
+    margin-left: 80px;
+    margin-top: 80px;
+    
+}
+
+#ball {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    border-radius: 50%;
+    background: white;
+    border: solid #548DC7 1px;
+    box-shadow: 0px 0px 12px 5px #548DC7;
+    left: 42%; 
+    top: 42%;
+    animation: spin 2s ease-in-out infinite; 
+}
+
+
+@keyframes spin {
+    from {transform: rotate(0deg) translateY(-100px) rotate(0deg)}
+    to {transform: rotate(360deg) translateY(-100px) rotate(-360deg)}
+} */

@@ -1,0 +1,62 @@
+/* css */
+
+
+
+#popup {
+    width: 300px;
+    height: 200px;
+    border: solid black 1px;
+    display: inline-block;
+    position: relative;
+    background: skyblue;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 300px;
+    top: -500px;
+    transform-origin: 10px 10px;
+    animation: drop 0.7s ease forwards,
+                swing 2s ease 4s forwards;
+}
+
+#content {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+
+
+
+#button {
+    display: inline-block;
+    color: white;
+    background: navy;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid navy 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+} 
+
+
+@keyframes drop {
+    0%{ opacity: 0}
+    70%{ transform: translateY(600px)}
+    100%{ transform: translateY(550px)  }
+    
+    
+}
+
+
+@keyframes swing {
+    0%{transform: translateY(600px) rotateZ(0deg)}
+    40%{transform: translateY(600px) rotateZ(90deg)}
+    70%{transform: translateY(600px) rotateZ(70deg)}
+    100%{transform: translateY(600px) rotateZ(75deg)}
+    
+}
